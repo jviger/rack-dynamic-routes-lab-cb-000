@@ -1,7 +1,7 @@
 class Item
   attr_accessor :name, :price
 
-  @@itmems = []
+  @@items = []
   
   def initialize(name,price)
     @name = name
